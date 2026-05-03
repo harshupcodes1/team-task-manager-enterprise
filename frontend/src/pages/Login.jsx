@@ -40,7 +40,8 @@ const Login = () => {
     const checkEmail = async () => {
       try {
         setIsCheckingEmail(true);
-        const res = await fetch(`http://localhost:5000/api/auth/check-email?email=${email}`);
+        const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+        const res = await fetch(`${baseUrl}/auth/check-email?email=${email}`);
         const data = await res.json();
         if (data.exists) {
           setEmailExistsWarning('This corporate email is already registered.');
