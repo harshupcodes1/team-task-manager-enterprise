@@ -14,10 +14,7 @@
 </div>
 
 ## 🌐 Live Application
-- **Production URL:** [https://ample-adaptation-production-554a.up.railway.app](https://ample-adaptation-production-554a.up.railway.app)
-- **Demo Video:** `[Add Your Video Link Here (Loom/YouTube)]`
-
-*(Note: Use the email `admin@company.com` and password `Admin@123` to access the Admin privileges).*
+- **Production URL:** [Click here](https://ample-adaptation-production-554a.up.railway.app)
 
 ---
 
